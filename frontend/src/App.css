@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px #00000010;
+}
+
+h1 {
+  text-align: center;
+  color: #1d4ed8;
+}
+
+.subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.employee-form {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.employee-form h2 {
+  margin-top: 0;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  padding: 9px 13px;
+  margin: 3px 0;
+  border: none;
+  border-radius: 5px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.employee-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.cancel {
+  background: #64748b;
+}
+
+.delete {
+  background: #dc2626;
+}
+
+.message {
+  text-align: center;
+  color: #166534;
+  margin: 15px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+th {
+  background: #1d4ed8;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 12px;
+  }
+}
